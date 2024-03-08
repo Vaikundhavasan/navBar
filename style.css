@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+  margin-top: 20px;
+}
+.navbar a {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  background-color: rgba(247, 14, 14, 0.524);
+}
+
+.content {
+  width: 100%;
+  height: 70vh;
+  border-top: 1px solid black;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service {
+  display: none;
+}
+.contact {
+  display: none;
+}
+.about {
+  display: none;
+}
